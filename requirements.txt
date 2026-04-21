@@ -1,0 +1,31 @@
+# ─── Web framework ────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# ─── Auth ─────────────────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.3
+passlib==1.7.4
+
+# ─── AI / ML ──────────────────────────────────────────────────────────────────
+openai==1.51.0
+transformers==4.44.2
+torch==2.4.0
+faiss-cpu==1.8.0
+numpy==1.26.4
+
+# ─── Data ─────────────────────────────────────────────────────────────────────
+pandas==2.2.2
+psycopg2-binary==2.9.9
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.66.5
+python-json-logger==2.0.7
+
+# ─── Async HTTP (for streaming) ───────────────────────────────────────────────
+httpx==0.27.2
+
+# NOTE: Frontend (React) dependencies are managed by npm in frontend/
+# Run: cd frontend && npm install

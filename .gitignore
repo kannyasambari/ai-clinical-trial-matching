@@ -1,0 +1,19 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# embeddings
+*.npy
+*.pkl
+*.index
+
+# large data
+*.csv
+*.zip
+ctg-studies.json
+
+# allow sample
+!data_sample/*.json
+
+.DS_Store

@@ -1,0 +1,1 @@
+Run build_embeddings.py to regenerate vector database before using system.
