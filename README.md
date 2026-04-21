@@ -189,9 +189,14 @@ My doctor thinks I have Crohn's disease. I'm 34, male.
 
 ---
 
-## 👩‍💻 Author
+## 👥 Contributors
 
-**Kannya Sambari**
+This project was developed as part of a group academic project.  
+Key contributions include:
+
+- Backend development (RAG pipeline, API design)
+- Data processing and embedding generation
+- Eligibility reasoning system
 
 ---
 
